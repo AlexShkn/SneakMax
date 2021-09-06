@@ -89,6 +89,14 @@ a {
       background-color: var(--color-accent-hover);
     }
   }
+  &--secondary {
+    color: var(--color-white);
+    background-color: var(--color-main);
+
+    &:hover {
+      background-color: var(--color-main-hover);
+    }
+  }
 }
 
 .title {
@@ -102,9 +110,10 @@ a {
 
 .custom-checkbox {
   @include custom-checkbox;
-
+  display: flex;
+  justify-content: space-between;
   &__content {
-    padding-left: 35px;
+    padding-left: 30px;
     font: var(--middle-book);
     color: var(--color-main);
     &::before {
