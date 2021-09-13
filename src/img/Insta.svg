@@ -1,5 +1,5 @@
 <svg width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="44" height="45">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="44" height="45">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 22.4861C0 10.3986 9.84974 0.599854 22 0.599854C34.1503 0.599854 44 10.3986 44 22.4861C44 34.5735 34.1503 44.3723 22 44.3723C9.84974 44.3723 0 34.5735 0 22.4861Z" fill="white"/>
 </mask>
 <g mask="url(#mask0)">
