@@ -3,6 +3,7 @@
   overflow: hidden;
   height: 580px;
   background-color: var(--color-eastbay);
+  z-index: -2;
   &__container {
     position: relative;
     display: flex;
@@ -27,9 +28,11 @@
     color: var(--color-white);
   }
   &__quote {
+    position: relative;
     display: inline-block;
     margin-bottom: var(--second-offset);
     font: inherit;
+    z-index: 100;
     &::before,
     &::after {
       display: none;
@@ -61,6 +64,7 @@
     width: 500px;
     height: 950px;
     transform: rotate(15deg);
+    z-index: -1;
     img {
       position: absolute;
       top: 0;
